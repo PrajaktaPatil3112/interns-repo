@@ -1,186 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Portfolio - My Website</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shrenik Portfolio - My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar">
-            <div class="nav-brand">
-                <h1>MyWebsite</h1>
-            </div>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="about.html" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="services.html" class="nav-link">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a href="portfolio.html" class="nav-link active">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact.html" class="nav-link">Contact</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="nav-brand">
+          <h1>MyWebsite</h1>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="portfolio.html" class="nav-link active">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="page-header">
-            <div class="container">
-                <h1>Our Portfolio</h1>
-                <p>Showcasing our best work and successful projects</p>
+      <section class="page-header">
+        <div class="container">
+          <h1>Yourgit Portfolio</h1>
+          <p>Showcasing our best work and successful projects</p>
+        </div>
+      </section>
+
+      <section class="portfolio-content">
+        <div class="container">
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Web Design</button>
+            <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+            <button class="filter-btn" data-filter="branding">Branding</button>
+          </div>
+
+          <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>🌐</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>E-commerce Website</h3>
+                <p>Modern online store with responsive design</p>
+                <div class="portfolio-tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+              </div>
             </div>
-        </section>
 
-        <section class="portfolio-content">
-            <div class="container">
-                <div class="portfolio-filters">
-                    <button class="filter-btn active" data-filter="all">All</button>
-                    <button class="filter-btn" data-filter="web">Web Design</button>
-                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
-                    <button class="filter-btn" data-filter="branding">Branding</button>
+            <div class="portfolio-item" data-category="mobile">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>📱</span>
                 </div>
-
-                <div class="portfolio-grid">
-                    <div class="portfolio-item" data-category="web">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>🌐</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>E-commerce Website</h3>
-                            <p>Modern online store with responsive design</p>
-                            <div class="portfolio-tags">
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="mobile">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>📱</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>Fitness App</h3>
-                            <p>Cross-platform mobile application</p>
-                            <div class="portfolio-tags">
-                                <span>React Native</span>
-                                <span>Firebase</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="branding">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>🎨</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>Company Branding</h3>
-                            <p>Complete brand identity design</p>
-                            <div class="portfolio-tags">
-                                <span>Logo Design</span>
-                                <span>Brand Guidelines</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="web">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>💼</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>Corporate Website</h3>
-                            <p>Professional business website</p>
-                            <div class="portfolio-tags">
-                                <span>WordPress</span>
-                                <span>SEO</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="mobile">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>🚗</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>Ride-Sharing App</h3>
-                            <p>Location-based service application</p>
-                            <div class="portfolio-tags">
-                                <span>Flutter</span>
-                                <span>Google Maps</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="portfolio-item" data-category="branding">
-                        <div class="portfolio-image">
-                            <div class="image-placeholder">
-                                <span>🏢</span>
-                            </div>
-                        </div>
-                        <div class="portfolio-overlay">
-                            <h3>Startup Branding</h3>
-                            <p>Modern startup identity package</p>
-                            <div class="portfolio-tags">
-                                <span>Visual Identity</span>
-                                <span>Marketing Materials</span>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>Fitness App</h3>
+                <p>Cross-platform mobile application</p>
+                <div class="portfolio-tags">
+                  <span>React Native</span>
+                  <span>Firebase</span>
                 </div>
-
-                <div class="portfolio-stats">
-                    <div class="stat-item">
-                        <h3>50+</h3>
-                        <p>Projects Completed</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>30+</h3>
-                        <p>Happy Clients</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>5+</h3>
-                        <p>Years Experience</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>100%</h3>
-                        <p>Client Satisfaction</p>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
+
+            <div class="portfolio-item" data-category="branding">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>🎨</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>Company Branding</h3>
+                <p>Complete brand identity design</p>
+                <div class="portfolio-tags">
+                  <span>Logo Design</span>
+                  <span>Brand Guidelines</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>💼</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>Corporate Website</h3>
+                <p>Professional business website</p>
+                <div class="portfolio-tags">
+                  <span>WordPress</span>
+                  <span>SEO</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="mobile">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>🚗</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>Ride-Sharing App</h3>
+                <p>Location-based service application</p>
+                <div class="portfolio-tags">
+                  <span>Flutter</span>
+                  <span>Google Maps</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="portfolio-item" data-category="branding">
+              <div class="portfolio-image">
+                <div class="image-placeholder">
+                  <span>🏢</span>
+                </div>
+              </div>
+              <div class="portfolio-overlay">
+                <h3>Startup Branding</h3>
+                <p>Modern startup identity package</p>
+                <div class="portfolio-tags">
+                  <span>Visual Identity</span>
+                  <span>Marketing Materials</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio-stats">
+            <div class="stat-item">
+              <h3>50+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat-item">
+              <h3>30+</h3>
+              <p>Happy Clients</p>
+            </div>
+            <div class="stat-item">
+              <h3>5+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-item">
+              <h3>100%</h3>
+              <p>Client Satisfaction</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
-        </div>
+      <div class="container">
+        <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
-</html> 
+  </body>
+</html>
